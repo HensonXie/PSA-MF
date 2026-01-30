@@ -77,12 +77,11 @@ bash src/train.sh
 If you find this code useful for your research, please cite our paper (**Accepted by AAAI 2026**):
 
 ```bibtex
-@inproceedings{xie2026psamf,
+@article{xie2025psa,
   title={PSA-MF: Personality-Sentiment Aligned Multi-Level Fusion for Multimodal Sentiment Analysis},
   author={Xie, Heng and Zhu, Kang and Wen, Zhengqi and Tao, Jianhua and Liu, Xuefei and Fu, Ruibo and Li, Changsheng},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-  year={2026},
-  note={arXiv preprint arXiv:2512.01442}
+  journal={arXiv preprint arXiv:2512.01442},
+  year={2025}
 }
 ```
 
