@@ -87,7 +87,7 @@ class Solver(object):
                 test_metrics = eval_func(test_results, test_truths, exclude_zero=False)
 
                 # 格式化输出
-                # print(f"Valid Metrics: " + ", ".join(f"{k}: {v:.4f}" for k, v in val_metrics.items()))
+                print(f"Valid Metrics: " + ", ".join(f"{k}: {v:.4f}" for k, v in val_metrics.items()))
                 print(f"Test Metrics : " + ", ".join(f"{k}: {v:.4f}" for k, v in test_metrics.items()))
 
                 # TensorBoard Logging
